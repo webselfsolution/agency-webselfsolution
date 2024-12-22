@@ -70,7 +70,7 @@ export const testimonials = [
     quote: "A leading school replaced their paper-based system with a streamlined School Management System, reducing administrative workload by 40% and improving data accuracy.",
     name: "Edgar Allan Poe",
     title: "Enhanced Efficiency with Digital Workflows",
-    // img: "/client-img01.svg",
+    img:  "/testimonials-client/man.png",
   },
 ];
 

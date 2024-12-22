@@ -16,14 +16,14 @@ export default function Cta() {
             duration={2}
             filter={false}
             className="text-center text-[30px] md:text-4xl lg:text-4xl "
-            words="Ready to Boost Your Digital Presence? Let's Make it Happen!"
+            words="Ready to Boost Your Digital Presence? Let&lsquo;s Make it Happen!"
           />
           <p
             className={`text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-1xl`}
           >
             Turn your online ideas into reality with webself. Reach out today to
-            start building a stronger, more effective digital presence. we're
-            here to help you succed-let's begin!.
+            start building a stronger, more effective digital presence. we&lsquo;re
+            here to help you succed-let&lsquo;s begin!.
           </p>
           
         </div>

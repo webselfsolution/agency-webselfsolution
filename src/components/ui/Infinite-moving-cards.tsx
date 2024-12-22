@@ -106,13 +106,14 @@ export const InfiniteMovingCards = ({
               </span>
               <div className="relative z-20 mt-6 flex flex-row items-center">
                 <span className="px-2">
-                  <Image
-                    src={item?.img || "/testimonials-client/man.png"}
-                    alt={item?.title}
-                    width={40}
-                    height={50}
-                    className="rounded-full w-[40px] h-[40px] object-cover"
-                  />
+                <Image
+  src={item?.img}
+  alt={item?.title}
+  width={40}
+  height={40} // Match height with CSS styles
+  className="rounded-full object-cover"
+/>
+
                 </span>
                 <span className="flex flex-col gap-1">
                   <span className=" text-sm leading-[1.6] text-gray-400 font-normal">

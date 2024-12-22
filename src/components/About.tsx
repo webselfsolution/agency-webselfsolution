@@ -15,7 +15,7 @@ export function About() {
           online experiences. Our mission is to empower businesses to thrive in
           the digital landscape through innovative and customized web solutions.
           Guided by our core values of creativity, integrity, and excellence, we
-          are committed to exceeding our clients' expectations in every project.
+          are committed to exceeding our clients&lsquo; expectations in every project.
         </p>
       </div>
       <div className="py-4">

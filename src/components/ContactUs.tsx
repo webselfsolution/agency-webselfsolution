@@ -16,7 +16,6 @@ import { FloatingDock } from "./ui/Floating-dock";
 
 export function ContactUs() {
   const [state, handleSubmit] = useForm("xpwzvore");
-  console.log("state", state);
   
   const links = [
     {
@@ -90,7 +89,7 @@ export function ContactUs() {
             Welcome to webself
           </h2>
           <p className="text-neutral-600 text-sm md:text-base max-w-sm mt-2 dark:text-neutral-300">
-            Ready to Boost Your Digital Presence? Let's Make it Happen!
+            Ready to Boost Your Digital Presence? Let&lsquo;s Make it Happen!
           </p>
 
           <form

@@ -19,7 +19,7 @@ export function Testimonial() {
           </div>
           <p className="px-4 sm:px-0 md:w-[44rem] lg:w-[48rem] text-center md:tracking-wider mt-4 mb-2 text-sm md:text-lg lg:text-xl text-gray-300">
             See what our clients have to say about thier experience with
-            webself. Discover how we've helped businesses like yours achieve
+            webself. Discover how we&lsquo;ve helped businesses like yours achieve
             their online goals through custom web solutions that deliver real
             results.
           </p>

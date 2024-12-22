@@ -142,13 +142,18 @@ export const ProductCard = ({
         href={product.link}
         className="block group-hover/product:shadow-2xl "
       >
-        <Image
-          src={product.thumbnail}
-          height="600"
-          width="600"
-          className="object-contain absolute h-full w-full inset-0"
-          alt={product.title}
-        />
+        {product?.thumbnail ? (
+          <Image
+            height={600}
+            width={600}
+            src={product.thumbnail}
+            className="object-contain absolute inset-0 h-full w-full"
+            alt={product.title || "Product Image"}
+            style={{ width: "auto", height: "auto" }} // Ensure aspect ratio consistency
+          />
+        ) : (
+          <div className="placeholder">Image not available</div> // Optional placeholder content
+        )}
       </Link>
       <div className="absolute inset-0 h-full w-full opacity-0 group-hover/product:opacity-80 bg-black pointer-events-none"></div>
       <h2 className="absolute bottom-4 left-4 opacity-0 group-hover/product:opacity-100 text-white">
